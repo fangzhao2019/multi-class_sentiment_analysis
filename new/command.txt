@@ -1,0 +1,11 @@
+python main.py --dataset_name="Ren_CECps" --gpu_id="0" --standardized_label=True --remain_neutral=True --refresh=False --resume=True --batch_size=4
+
+python main.py --dataset_name="NLPCC2013" --gpu_id="0" --standardized_label=True --remain_neutral=True --refresh=True --resume=True --batch_size=4
+
+python main.py --dataset_name="NLPCC2014" --gpu_id="0" --standardized_label=True --remain_neutral=True --refresh=True --resume=True --batch_size=4
+
+尝试将GCN的输出与BERT的输出结合在一起看看是否有效
+
+
+
+
